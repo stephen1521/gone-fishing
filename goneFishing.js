@@ -72,8 +72,7 @@ function divider(){
     console.log('==============================================\n');
 }
 
-/* prints random fish fields
-   @return - returns the randomly generated fish 
+/* prints random fish fields 
 */
 function printFish(fish){
     console.log('You caught a \'' + fish.name + '\' weighing ' + (fish.weight).toFixed(2) + ' lbs\nand valued at $' + (fish.value).toFixed(2) + '\n');
@@ -190,7 +189,7 @@ function updateTime(){
 }
 
 /* probability to catch an item is 10 percent
-@return return true if catch item passed
+@return - return true if catch item passed
 */
 function catchItem(){
     let num = Math.random()
